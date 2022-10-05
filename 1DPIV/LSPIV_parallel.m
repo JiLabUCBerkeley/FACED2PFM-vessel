@@ -48,7 +48,7 @@ pxlY = 0.55;% pixel size along Y. Ignored in line scan data.
 tifPath = fullfile(pwd,'sample data');% the path containing blood vessel morphology tif file. 
 roiPath = fullfile(pwd,'sample data'); % the path containing imageJ ROIs ( name the ROI in accordance 
 % with the kymograph name. e.g. [fname(1:regexp(fname,'D')+3),'*.zip'].
-pathname = fullfile(pwd,['sample data',filesep,'PIV']);% the path for kymographs
+pathname = fullfile(pwd,'sample data');% the path for kymographs
 fstr = '*kymoROI*.tif'; % expected kymograph name format: *_01_*D200_*kymoROI01.tif 
 % D200 is the depth of blood vessel being imaged. 
 vesselType = 'capillary';% define the blood vessel type: 'large' or 'capillary'. 
