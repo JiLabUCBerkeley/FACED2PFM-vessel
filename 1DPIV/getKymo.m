@@ -1,7 +1,7 @@
 % Guanghan Meng: 08/31/2021: generate kymographs from imageJ ROIs and tif
 % stacks. change line 9 if the ROIs are named differently. 
-tifPath = fullfile(pwd,['sample data',filesep,'PIV']); % The path where 2D tif stacks are located. 
-ROIpath = fullfile(pwd,['sample data',filesep,'PIV']); % The path where imageJ line ROI files are saved. 
+tifPath = fullfile(pwd,'sample data'); % The path where 2D tif stacks are located. 
+ROIpath = fullfile(pwd,'sample data'); % The path where imageJ line ROI files are saved. 
 tifStr = '*.tif'; % tif file name 
 tifList = dir(fullfile(tifPath, tifStr));
 for tifIndx = 1:1:numel(tifList)
