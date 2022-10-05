@@ -45,8 +45,8 @@ manual_theta_input = false; % if manually input theta. If not, the program will 
 theta = 0; %angle of ROI line in degree;ignored if 'manual_theta' is false or is line scan data. 
 pxlX = 0.476;% pixel size along X
 pxlY = 0.55;% pixel size along Y. Ignored in line scan data. 
-tifPath = fullfile(pwd,['sample data',filesep,'PIV']);% the path containing blood vessel morphology tif file. 
-roiPath = fullfile(pwd,['sample data',filesep,'PIV']); % the path containing imageJ ROIs ( name the ROI in accordance 
+tifPath = fullfile(pwd,'sample data');% the path containing blood vessel morphology tif file. 
+roiPath = fullfile(pwd,'sample data'); % the path containing imageJ ROIs ( name the ROI in accordance 
 % with the kymograph name. e.g. [fname(1:regexp(fname,'D')+3),'*.zip'].
 pathname = fullfile(pwd,['sample data',filesep,'PIV']);% the path for kymographs
 fstr = '*kymoROI*.tif'; % expected kymograph name format: *_01_*D200_*kymoROI01.tif 
