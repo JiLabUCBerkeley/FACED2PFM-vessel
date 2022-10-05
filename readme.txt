@@ -11,7 +11,7 @@ To run the codes, no other software other than MATLAB is required. Please follow
 MATLAB signal processing toolbox and parallel computing toolbox are required to run the codes.
 * Software like Microsoft Visual Studio may be required to read and edit C++ scripts in the SIFT flow pipeline, but not required to only run the code. 
 
-The software was tested on windows 10, MATLAB R2021a. 
+The software was tested on a windows 10 machine, MATLAB version: R2021a. 
 
 There are three pipelines included in this folder. Each pipeline has a distinct subpath. 
 1. 1DPIV: PIV method for velocity measurements from kymographs of horizontally oriented blood vessels 
