@@ -1,8 +1,8 @@
 # Blood flow analysis from _in vivo_ fluorescence imaging
 
 ## Citation:  
-G. Meng et al., Ultrafast two-photon fluorescence imaging of cerebral blood circulation in the mouse brain in vivo. 
-Proceedings of the National Academy of Sciences 119, e2117346119 (2022).
+_G. Meng et al., Ultrafast two-photon fluorescence imaging of cerebral blood circulation in the mouse brain in vivo. 
+Proceedings of the National Academy of Sciences 119, e2117346119 (2022)._
 
 Please cite the above publication if you use the code in this repository. This README file was created by Dr. Guanghan Meng in April, 2022
 
