@@ -35,6 +35,14 @@ Before start, make sure to alter the file name (either the tiff stack or the kym
    The file will output a mat file as described in section 1e. 
    Note: vesselAngleD is called in the script 'LSPIV_parallel' if matched imageJ ROIs can be found for the kymograph being processed (i.e. in the case where 2D full   frame hemodynamic imaging was performed and step a was gone through). If you start from the kymographs directly and there is no matched full-frame stacks for the      kymograph, LSPIV_parallel will display an error message box saying 'no ROI can be found' (this can also occur if you failed to follow the naming rules or gave the      wrong path in the script) and proceed to the later steps. You can still calculate vessel diameter by running vesselAngleD.m seperately (see step 4 for                  instructions). If the ROI file can be found but there is no morphology file, the algorithm will also have a error message window and exit vessel diameter and orientation calculation. 
    If you are re-processing kymographs generated from step 2 using different velocity calculation parameters, as long as all files in Section 1a-d are still in the current path, no need to do redo steps 1-2. 
+   Expected figure for velocity calculation: 
+   
+   ![20200226_16_D360ROI01avg50skip2shift2_001-071v](https://user-images.githubusercontent.com/20729322/194437706-8b5d0230-9896-441d-b2bc-6d00500fc8eb.png)
+   
+   Expected figures for vessel diameter and orientation calculation: 
+   
+   ![vessel diameter calculation](https://user-images.githubusercontent.com/20729322/194438089-bd23e081-244a-4aba-be08-6468513a3f00.png)
+   
 ### 4. (optional) Calculate the vessel diameter and pixel size separtely
    To run the vesselAngleD script independently (i.e. without kymographs), you will have to draw a line ROI along the length of the vessel of interest in the morphology image and save the imageJ ROIs following instructions in step 1. 
  
