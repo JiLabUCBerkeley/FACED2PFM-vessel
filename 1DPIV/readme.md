@@ -43,8 +43,10 @@ Before start, make sure to alter the file name (either the tiff stack or the kym
    
    ![vessel diameter calculation](https://user-images.githubusercontent.com/20729322/194438089-bd23e081-244a-4aba-be08-6468513a3f00.png)
    
+   The script first draws a line that is perpendicular to the length of the vessel (red lines in the vessel morphology image above), then use the brightness along the line to decide the vessel diameter. Two methods are provided to determine the line location: (1) a line perpendicular to the average slope of the ROI (2) Detect the blood vessel edge using radon transform, then draw the line. User can pick the calculation reasonable . 
+   
 ### 4. (optional) Calculate the vessel diameter and pixel size separtely
-   To run the vesselAngleD script independently (i.e. without kymographs), you will have to draw a line ROI along the length of the vessel of interest in the morphology image and save the imageJ ROIs following instructions in step 1. 
+   To run the vesselAngleD script independently (i.e. without kymographs), you will have to draw a line ROI along the length of the vessel of interest in the morphology image and save the imageJ ROIs following instructions in step 1. Expected outputs can be found in the step above 'Excpected figures for vessel diameter and orientation calculation'. 
  
 ## Section 3: sample data
 ### 1. full-frame stack as raw input: 
