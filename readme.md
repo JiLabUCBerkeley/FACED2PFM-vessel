@@ -8,10 +8,13 @@ Please cite the above publication if you use the code in this repository. This R
 
 ## Introduction 
 Characterizing blood flow by tracking individual red blood cells as they move through vessels is essential for understanding vascular function. With high spatial resolution, two-photon fluorescence microscopy is the method of choice for imaging blood flow at the cellular level. This software package is designed to calculate flow speed from 1D kymographs and 2D full-frame videos with individual blood cell resolvable from the original recording. 
+
 Exmample 1D kymographs (space-time images) and flow velocity analysis using 1D PIV pipeline, using 1D line scan along the axis of a blood vessel: 
+
 ![image](https://user-images.githubusercontent.com/20729322/194419400-4b90b092-05f6-4b31-980d-42b18771f6ea.png)
 
 Example 1D kymographs and flow velocity analysis using 1D PIV pipeline, where the kymographs are generated from ROI line selections after the acquisition of full-frame tif stack: 
+
 ![image](https://user-images.githubusercontent.com/20729322/194419638-5ed29fa5-be5e-493e-91fa-900d50b7211a.png)
 
 Example 2D flow analysis directly read out from kHz recording using SIFT flow pipeline: 
