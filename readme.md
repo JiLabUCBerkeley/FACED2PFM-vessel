@@ -4,7 +4,7 @@
 _G. Meng et al., Ultrafast two-photon fluorescence imaging of cerebral blood circulation in the mouse brain in vivo. 
 Proceedings of the National Academy of Sciences 119, e2117346119 (2022)._
 
-Please cite the above publication if you use the code in this repository. This README file was created by Dr. Guanghan Meng in April, 2022
+Please cite the above publication if you use the code in this repository. This README file was created by Dr. Guanghan Meng in 2022
 
 ## Introduction 
 Characterizing blood flow by tracking individual red blood cells as they move through vessels is essential for understanding vascular function. With high spatial resolution, two-photon fluorescence microscopy is the method of choice for imaging blood flow at the cellular level. This software package is designed to calculate flow speed from 1D kymographs and 2D full-frame videos with individual blood cell resolvable from the original recording. 
