@@ -13,9 +13,11 @@ Example: 20200226_01_D600_kymoROI.roi for single ROI,or .zip for multiple ROIs s
    #### Note: Please use either 'Straight line' or 'Freehand line' to draw line ROIs. Other types of ROIs are not supported at this stage and will lead to error. 
 ### d. Kymographs: 
 Example: 20200226_01_D600_kymoROI01.tif 
+If kymographs are directly obtained from line scanning, files a - c are not required.  Otherwise, b and d will be generated after running 'getKymo.m'
 ### e. PIV output mat file: 
 Example: velocity_20200226_01_D600ROI01_avg50skip1shift2_001-143 
 numbers after 'avg', 'skip', and "shift" are settings in 'LSPIV_parallel.m'. 001-143 is the processing range in the kymograph (e.g. if the kymograph is 200 pixels wide, then 001-143 means only the first 143 lines are included in flow velocity calculation, and the rest is cropped out). 
+This is the output file that contains all the calculation results output from 'LSPIV_parallel.m'
 
 
 PIV method
