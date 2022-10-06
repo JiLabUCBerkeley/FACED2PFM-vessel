@@ -30,7 +30,7 @@ There are three pipelines included in this folder. Each pipeline has a distinct 
 2. flux: Flux and halftime calculation for vertically oriented capillaries with a single file flow, and vertically oriented arteries and veins with a multi-file flow. 
 3. SIFT flow: 2D PIV analysis for horizontally oriented blood vessels with a multi-file flow. 
 The software was tested on a windows 10 machine, MATLAB version: R2021a. 
-#### To run the pipelines, follow system requirement & installation guide below and instructions in 'readme' under each pipeline's subfolder. 
+#### To run the pipelines, follow "system requirement & installation guide below and instructions" in "readme" under each pipeline's subfolder. 
 
 ## System requirements and installation guide
 To run the codes, no other software other than MATLAB is required. Please follow instructions on https://www.mathworks.com/products/get-matlab.html to install MATLAB. Any operating systems compatible with MATLAB will be able to run the codes. 
