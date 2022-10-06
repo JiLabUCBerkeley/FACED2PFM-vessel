@@ -1,15 +1,17 @@
 # 1D Particle image velocimetry (PIV) analysis for kymographs
-File naming example and expected output: 
-Note: In the example below, the 20200226 part in the file name is not neccessary, other parts are ideal for 
-directly running the codes without a problem. 
-tif stack: 20200226_01_D600.tif (D600 here means the data was taken at 600 um below skull) 
-Temporal-averaged morphology image: 20200226_01_D600_sum.tif
+## Section 1: Rules & examples of file naming, and expected output: 
+### Note: In the example below, the 20200226 part in the file name is not neccessary, other parts are required for directly running the codes without a problem. 
+### a. tiff stack:
+Example: 20200226_01_D600.tif; Note: D600 here means the data was taken at 600 um below skull. 
+This tiff stack is required only if you need to generate kymographs from full-frame recording. 
+### b. Time-averaged morphology image
+Example: 20200226_01_D600_sum.tif
+Note: the file is required if one wants to calculate the orientation and diameter of the blood vessel using input Fiji line ROIs. The file is automatically saved if kymographs for the tiff stack in 'a' are generated using the code 'getKymo.m'
 ImageJROI file: 20200226_01_D600_kymoROI.roi for single ROI,or .zip for multiple ROIs saved in a single 
                 file
                 Note: Please use either 'Straight line' or 'Freehand line' to draw line ROIs. Other types 
                 of ROIs are not supported at this stage and will lead to error. 
-Kymographs: 20200226_01_D600_kymoROI01.tif (note the file is automatically saved in this name format if 
-            the kymograph is generated using the code 'getKymo.m'
+Kymographs: 20200226_01_D600_kymoROI01.tif 
 PIV output mat file: velocity_20200226_01_D600ROI01_avg50skip1shift2_001-143 (numbers after 'avg', 'skip', 
                    and shift are settings in 'LSPIV_parallel'. 001-143 is the processing range in the
                    kymograph (e.g. if the kymograph is 200 pixels wide, then 001-143 means only the first
