@@ -16,8 +16,7 @@ Example 1D kymographs and flow velocity analysis using 1D PIV pipeline, where th
 
 Example 2D flow analysis directly read out from kHz recording using SIFT flow pipeline: 
 
-https://user-images.githubusercontent.com/20729322/194419883-40dfc59f-0e88-477b-bc3c-2fc9b8af103e.mp4
-
+https://user-images.githubusercontent.com/20729322/194419883-40dfc59f-0e88-477b-bc3c-2fc9b8af103e.mp4; 
 https://user-images.githubusercontent.com/20729322/194419870-28c6e42f-fb7c-4cd5-9a7e-81f696ab841f.mp4
 
 
