@@ -6,6 +6,8 @@ tif stack: 20200226_01_D600.tif (D600 here means the data was taken at 600 um be
 Temporal-averaged morphology image: 20200226_01_D600_sum.tif
 ImageJROI file: 20200226_01_D600_kymoROI.roi for single ROI,or .zip for multiple ROIs saved in a single 
                 file
+                Note: Please use either 'Straight line' or 'Freehand line' to draw line ROIs. Other ROIs
+                are not supported at this stage and will lead to error. 
 Kymographs: 20200226_01_D600_kymoROI01.tif (note the file is automatically saved in this name format if 
             the kymograph is generated using the code 'getKymo.m'
 PIV output mat file: velocity_20200226_01_D600ROI01_avg50skip1shift2_001-143 (numbers after 'avg', 'skip', 
