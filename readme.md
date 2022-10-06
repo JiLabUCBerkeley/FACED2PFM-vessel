@@ -1,3 +1,4 @@
+# Hemodynamic analysis
 GENERAL INFORMATION: This README file was created by Dr. Guanghan Meng in April, 2022
 
 From: 
@@ -5,7 +6,6 @@ G. Meng et al., Ultrafast two-photon fluorescence imaging of cerebral blood circ
 Proceedings of the National Academy of Sciences 119, e2117346119 (2022).
 
 Please cite the above publication if you use the code in this repository. 
-![image](https://user-images.githubusercontent.com/20729322/194415637-c25b7ede-7bf9-452b-a911-3ff60df099c1.png)
 
 System requirements and installation guide
 To run the codes, no other software other than MATLAB is required. Please follow instructions on https://www.mathworks.com/products/get-matlab.html to install MATLAB. Any operating systems compatible with MATLAB will be able to run the codes. 
