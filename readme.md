@@ -20,5 +20,5 @@ MATLAB signal processing toolbox and parallel computing toolbox are required to 
 * Software like Microsoft Visual Studio may be required to read and edit C++ scripts in the SIFT flow pipeline, but not required to only run the code. 
 
 The software was tested on a windows 10 machine, MATLAB version: R2021a. 
-## To run the pipelines, follow instructions in 'readme' under each pipeline folder. 
+### To run the pipelines, follow instructions in 'readme' under each pipeline folder. 
 
