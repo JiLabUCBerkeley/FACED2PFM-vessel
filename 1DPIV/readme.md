@@ -38,7 +38,7 @@ Before start, make sure to alter the file name (either the tiff stack or the kym
 ### 4. (optional) Calculate the vessel diameter and pixel size separtely
    To run the vesselAngleD script independently (i.e. without kymographs), you will have to draw a line ROI along the length of the vessel of interest in the morphology image and save the imageJ ROIs following instructions in step 1. 
  
-## Section 3: Demo data in the 'sample data' folder
+## Section 3: sample data
 ### 1. full-frame stack as raw input: 
 A small dataset '20200302_47_D430.tif' is included in 'sample data' to demonstrate steps 1 - 3 in section 2. 
 20200302_47_D430_sum.tif is the time-summed morphology image of the blood vessel cross-sections. 
